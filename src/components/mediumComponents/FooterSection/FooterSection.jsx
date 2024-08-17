@@ -2,7 +2,7 @@ import React from "react";
 import style from "./footerSection.module.css";
 import logo from "../../../assets/img/cl_logo.png";
 
-function FooterSection() {
+function FooterSection({phoneNumber, bottomText}) {
   return (
     <section className={style.footer}>
       <div className={style.footerContent}>
@@ -11,7 +11,7 @@ function FooterSection() {
             <img src={logo} className={style.logoImg} />
           </div>
           <p className={style.logoText}>CL Barbers</p>
-          <h4 className={style.logoTextH4}>+994 51 123 45 67</h4>
+          <h4 className={style.logoTextH4}>{phoneNumber}</h4>
         </div>
         <div className={style.footerMid}>
           <p p className={style.footerTitle}>Links</p>
@@ -34,7 +34,7 @@ function FooterSection() {
         </div>
       </div>
       <div className={style.footerBottom}>
-        <p>Copyright © 2024 CL Barbers. All rights reserved</p>
+        <p>{bottomText}</p>
       </div>
     </section>
   );

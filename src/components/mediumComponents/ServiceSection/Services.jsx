@@ -4,13 +4,13 @@ import style from "./services.module.css";
 import SectionHeader from "../../basicComponents/SectionHeader/SectionHeader";
 import ServiceCard from "../../basicComponents/ServiceCard/ServiceCard";
 
-function Services() {
+function Services({sectionLittleText, sectionBigText}) {
   return (
     <section className={style.services}>
       <SectionHeader
         center={true}
-        littleText={"Professional Services"}
-        bigText={"Our Best services that we offering to you"}
+        littleText={sectionLittleText}
+        bigText={sectionBigText}
       />
       <div className={style.servicesCardContainer}>
         <ServiceCard

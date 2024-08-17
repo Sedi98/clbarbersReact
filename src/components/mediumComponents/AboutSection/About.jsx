@@ -4,7 +4,7 @@ import SectionHeader from "../../basicComponents/SectionHeader/SectionHeader";
 import Button from "../../basicComponents/Button/Button";
 import img from "../../../assets/img/about_img.webp";
 
-function About() {
+function About({sectionLittleText,title,regularText,boldText}) {
   return (
     <section className={style.about}>
       <div className={style.aboutContent}>
@@ -14,20 +14,18 @@ function About() {
         <div className="infContainer">
           <SectionHeader
             center={false}
-            littleText={"About Our company"}
-            bigText={"52 Years Of Experience In Hair cut!"}
+            littleText={sectionLittleText}
+            bigText={title}
           />
 
           <p className={style.aboutTextRegular}>
-            {" "}
-            Brook presents your services with flexible, convenient and cdpoe
-            layouts. You can select your favorite layouts & elements for cular
-            ts with unlimited ustomization possibilities. Pixel-perfreplication
-            of the designers is intended.
+          {regularText}
+            
           </p>
           <p className={style.aboutTextBold}>
-            Brook presents your services with flexible, convefnient and ent
-            anipurpose layouts. You can select your favorite.
+           {
+             boldText
+           }
           </p>
 
           <Button />

@@ -3,13 +3,13 @@ import SectionHeader from "../../basicComponents/SectionHeader/SectionHeader";
 import TeamCard from "../../basicComponents/TeamCard/TeamCard";
 import style from "./teamSection.module.css";
 
-function TeamSection() {
+function TeamSection({sectionLittleText,sectionBigText}) {
   return (
     <section className={style.teamSection}>
       <SectionHeader
         center={true}
-        littleText={"Professional Teams"}
-        bigText={"Our award winner hair cut exparts for you"}
+        littleText={sectionLittleText}
+        bigText={sectionBigText}
       />
 
       <div>
