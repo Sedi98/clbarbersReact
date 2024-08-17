@@ -1,0 +1,33 @@
+.littleText{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    color: #292c37;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.05em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bigText{
+    font-size: 48px;
+    display: block;
+    color: #1d2434;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .bigText {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .littleText {
+        text-align: center;
+    }
+}

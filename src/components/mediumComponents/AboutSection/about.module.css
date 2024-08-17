@@ -1,0 +1,46 @@
+.about {
+  padding: 150px 0px;
+}
+
+.aboutContent{
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  gap: 30px;
+}
+
+.imgContainer{
+  width: 100%;
+}
+
+.imgContainer img{
+  width: 100%;
+}
+
+.aboutTextRegular{
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #212025;
+    font-weight: 300;
+}
+
+.aboutTextBold{
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #212025;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+  .aboutContent{
+    flex-direction: column;
+    width: 90%;
+  }
+  
+}

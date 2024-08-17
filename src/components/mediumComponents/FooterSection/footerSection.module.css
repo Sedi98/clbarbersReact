@@ -1,0 +1,140 @@
+.footer {
+  width: 100%;
+  background-color: #000000;
+  margin-top: 100px;
+}
+
+.footerContent {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  padding: 150px 0px 70px;
+  border-bottom: 1px solid #233148;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  color: #fff;
+  height: auto;
+}
+
+.footerRight {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+
+  color: #fff;
+}
+
+.footerMid {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  color: #fff;
+  height: auto;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logoImg {
+  width: 100%;
+  height: 100%;
+}
+
+.logoText {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8;
+  margin: 0px;
+
+  color: #7c7c7c;
+}
+
+.footerInputContainer {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.footerInput {
+  width: 100%;
+  height: 43px;
+  padding: 10px 20px;
+  border: 0;
+  background: #101720;
+  color: #fff;
+  display: block;
+}
+
+.footerBtn {
+  border: none;
+  cursor: pointer;
+  padding: 14px 22px;
+  background: #0a0f17;
+  display: block;
+
+  color: #d19f68;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footerTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.footerText {
+  font-family: "Poppins", sans-serif;
+  color: #7c7c7c;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.logoTextH4{
+    color: #d19f68;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #000000;
+    
+    
+}
+
+.footerBottom p{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+    color: #7c7c7c;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footerContent{
+    flex-direction: column;
+    padding: 50px 0px 70px;
+    width: 90%;
+  }
+}

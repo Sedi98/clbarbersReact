@@ -1,0 +1,108 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: #000000;
+  color: #fff;
+  gap: 10px;
+}
+
+
+.brand{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+.brand img {
+  width: 100%;
+  height: 100%;
+}
+
+.links {
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  padding: 40px 15px;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+
+}
+
+.link::before, .link::after, .active::after, .active::before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 1px;
+    background: #d19f68;
+    left: 50px;
+    top: 37px;
+    transform: rotate(-46deg);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+
+
+.active{
+    color: #d19f68;
+}
+
+.active::after, .active::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.link::after{
+   bottom: 37px;
+   top: auto;
+   left: 25px;
+}
+
+
+.link:hover::before, .link:hover::after   {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.link:hover {
+    color: #d19f68;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar{
+    padding: 10px 15px;
+  }
+
+  .brand{
+    width: 60px;
+    height: 60px;
+  }
+  .links{
+    display: none;
+  }
+
+  
+}
+

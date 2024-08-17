@@ -1,0 +1,20 @@
+
+.servicesCardContainer{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .servicesCardContainer{
+        width: 90%;
+        flex-direction: column;
+    }
+    
+}
