@@ -4,13 +4,13 @@ import SectionHeader from "../../basicComponents/SectionHeader/SectionHeader";
 import imgOne from '../../../assets/img/img1.webp'
 import imgTwo from '../../../assets/img/img2.webp'
 
-function PhotoSection() {
+function PhotoSection({sectionLittleText,sectionBigText}) {
   return (
     <section className={style.section}>
       <SectionHeader
         center={true}
-        littleText={"our image gallery"}
-        bigText={"some images from our barber shop"}
+        littleText={sectionLittleText}
+        bigText={sectionBigText}
       />
       <div className={style.imgContainer}>
         <div className={style.imgDiv}>

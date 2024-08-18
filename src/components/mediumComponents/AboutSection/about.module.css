@@ -17,6 +17,10 @@
   width: 100%;
 }
 
+.infContainer{
+  width: 100%;
+}
+
 .aboutTextRegular{
     font-family: "Poppins", sans-serif;
     line-height: 30px;

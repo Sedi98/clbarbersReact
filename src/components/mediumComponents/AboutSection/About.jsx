@@ -11,7 +11,7 @@ function About({sectionLittleText,title,regularText,boldText}) {
         <div className={style.imgContainer}>
           <img className={style.img} src={img} alt="" />
         </div>
-        <div className="infContainer">
+        <div className={style.infContainer}>
           <SectionHeader
             center={false}
             littleText={sectionLittleText}

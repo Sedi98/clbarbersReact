@@ -13,11 +13,11 @@ function Navbar() {
         <img src={logo} />
       </div>
       <div className={style.links}>
-        <a href="#" onClick={() => setIsOpen('home')}       className={ isOpen== 'home'? `${style.link} ${style.active}` : style.link}>Home</a>
-        <a href="#" onClick={() => setIsOpen('about')}      className={ isOpen== 'about'? `${style.link} ${style.active}` : style.link}>About</a>
-        <a href="#" onClick={() => setIsOpen('services')}   className={ isOpen== 'services'? `${style.link} ${style.active}` : style.link}>Services</a>
-        <a href="#" onClick={() => setIsOpen('portfolio')}  className={ isOpen== 'portfolio'? `${style.link} ${style.active}`: style.link}>Portfolio</a>
-        <a href="#" onClick={() => setIsOpen('contact')}    className={ isOpen== 'contact'? `${style.link} ${style.active}` : style.link}>Contact</a>
+        <a href="#" onClick={() => setIsOpen('home')}       className={ isOpen== 'home'? `${style.link} ${style.active}` : style.link}>Əsas</a>
+        <a href="#" onClick={() => setIsOpen('about')}      className={ isOpen== 'about'? `${style.link} ${style.active}` : style.link}>Haqqında</a>
+        <a href="#" onClick={() => setIsOpen('services')}   className={ isOpen== 'services'? `${style.link} ${style.active}` : style.link}>Xidmətlər</a>
+        <a href="#" onClick={() => setIsOpen('portfolio')}  className={ isOpen== 'portfolio'? `${style.link} ${style.active}`: style.link}>Portfeyl</a>
+        <a href="#" onClick={() => setIsOpen('contact')}    className={ isOpen== 'contact'? `${style.link} ${style.active}` : style.link}>Əlaqə</a>
       </div>
       <div>
         <Button />

@@ -12,22 +12,20 @@ function MainPage() {
     <>
       <Navbar />
       <Hero
-        littleText={"with patrick potter"}
-        bigtext={"our hair style make your look elegance"}
+        littleText={"Cəlal Yusifov ilə"}
+        bigtext={"Saç stilimiz sizi daha yaraşıqlı edir!"}
       />
       <About
-        sectionLittleText={"about our company"}
-        title={"52 Years Of Experience In Hair cut!"}
-        regularText={
-          "Brook presents your services with flexible, convenient and cdpoe layous. You can select your favorite layouts & elements for cularts with unlimited ustomization possibilities. Pixel-perf replication of the designers is intended"
-        }
+        sectionLittleText={"Haqqımızda"}
+        title={"Saç kəsimində illərin təcrübəsi!"}
+        regularText={"Biz kişilər üçün mükəmməl saç və saqqal baxımı xidmətləri təklif edirik. Təcrübəli ustalarımız, müasir texnologiyalar və ən son trendlərlə, hər müştəriyə fərdi yanaşma ilə xidmət göstərir. Mağazamız gözəl mühit və keyfiyyətli xidmət ilə seçilir. Saç kəsimindən tutmuş saqqal formalaşdırmağa qədər hər zövqə uyğun xidmətlərimiz mövcuddur. Bizdə hər bir müştəri razılıqla mağazadan ayrılır!" }
         boldText={
-          " Brook presents your services with flexible, convefnient and entirely manipurpose layouts. You can select your favorite."
+          "Bizdə hər bir xidmət xüsusi qayğı ilə göstərilir. Fərdi yanaşma ilə saç və saqqal baxımınızı bizə həvalə edin. Göz oxşayan görünüş üçün sizi gözləyirik!"
         }
       />
-      <Services sectionLittleText={"Professional Services"} sectionBigText={"Our Best services that we offering to you"} />
-      <TeamSection sectionLittleText={"Professional Teams"} sectionBigText={"Our award winner hair cut exparts for you"} />
-      <PhotoSection />
+      <Services sectionLittleText={"Professional Xidmətlər"} sectionBigText={"Sizə təqdim etdiyimiz peşəkar xidmətlərimiz"} />
+      <TeamSection sectionLittleText={"Professional Komanda"} sectionBigText={"Peşəkar saç ustalarımızı sizə təqdim edirik"} />
+      <PhotoSection sectionLittleText={"Bizim foto galereyamız"} sectionBigText={"mağazamızdan bəzi şəkillər"} />
       <FooterSection phoneNumber={"+994 51 123 45 67"} bottomText={'Copyright © 2024 CL Barbers. All rights reserved'} />
     </>
   );
