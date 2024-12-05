@@ -1,0 +1,133 @@
+/* Reset and Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    padding: 24px;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .card-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-info {
+    margin-bottom: 24px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+   
+    font-size: 16px;
+    color: #555;
+    margin: 12px 0;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #0073e6;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 50%;
+    
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    background-color: #0073e6;
+    transform: scale(1.1);
+    color: #fff;
+  }
+  
+ 
+  
+  .instagram {
+    background-color: #e4405f;
+  }
+ 
+  
+  .tiktok {
+    background-color: #000000;
+  }
+
+  .whatsapp {
+    background-color: #25D366;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .card {
+      padding: 16px;
+      max-width: 350px;
+    }
+  
+    .card-title {
+      font-size: 24px;
+    }
+  
+    .info {
+      font-size: 14px;
+    }
+  
+    .social-icon {
+      font-size: 28px;
+      padding: 10px;
+    }
+  }
+  

@@ -6,7 +6,7 @@ import img from "../../../assets/img/about_img.webp";
 
 function About({sectionLittleText,title,regularText,boldText}) {
   return (
-    <section className={style.about}>
+    <section className={style.about} id="about">
       <div className={style.aboutContent}>
         <div className={style.imgContainer}>
           <img className={style.img} src={img} alt="" />

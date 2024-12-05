@@ -5,7 +5,7 @@ import style from "./teamSection.module.css";
 
 function TeamSection({sectionLittleText,sectionBigText}) {
   return (
-    <section className={style.teamSection}>
+    <section className={style.teamSection} id="portfolio">
       <SectionHeader
         center={true}
         littleText={sectionLittleText}

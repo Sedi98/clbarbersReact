@@ -55,6 +55,8 @@
 
     .hero{
         background-position: center;
+        background-size: cover;
+        object-fit: cover;
     }
     
 }

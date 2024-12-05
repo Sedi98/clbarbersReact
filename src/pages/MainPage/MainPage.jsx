@@ -6,6 +6,7 @@ import Services from "../../components/mediumComponents/ServiceSection/Services"
 import TeamSection from "../../components/mediumComponents/TeamSection/TeamSection";
 import PhotoSection from "../../components/mediumComponents/PhotoSection/PhotoSection";
 import FooterSection from "../../components/mediumComponents/FooterSection/FooterSection";
+import Social from "../../components/mediumComponents/SocialMedia/Social";
 
 function MainPage() {
   return (
@@ -25,8 +26,9 @@ function MainPage() {
       />
       <Services sectionLittleText={"Professional Xidmətlər"} sectionBigText={"Sizə təqdim etdiyimiz peşəkar xidmətlərimiz"} />
       <TeamSection sectionLittleText={"Professional Komanda"} sectionBigText={"Peşəkar saç ustalarımızı sizə təqdim edirik"} />
-      <PhotoSection sectionLittleText={"Bizim foto galereyamız"} sectionBigText={"mağazamızdan bəzi şəkillər"} />
-      <FooterSection phoneNumber={"+994 51 123 45 67"} bottomText={'Copyright © 2024 CL Barbers. All rights reserved'} />
+      <PhotoSection sectionLittleText={"Bizim foto galereyamız"} sectionBigText={"Mağazamızdan bəzi şəkillər"} />
+      <FooterSection phoneNumber={"+994 55 655 06 44"} bottomText={'© 2023 CL Barbers. Bütün hüquqlar qorunur. Sədi Məmmədov tərəfindən hazırlandı'} />
+      <Social />
     </>
   );
 }
