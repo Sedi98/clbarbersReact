@@ -1,6 +1,7 @@
-import React from 'react';
-import { FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'; // Using react-icons for social media icons
-import './Social.css'; // Import the CSS file
+import React from "react";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa"; // Using react-icons for social media icons
+import "./Social.css"; // Import the CSS file
+import { FaPhone } from "react-icons/fa6";
 
 const Social = () => {
   return (
@@ -15,7 +16,7 @@ const Social = () => {
         <FaInstagram />
       </a>
 
-      {/* TikTok Button */}
+      {/* TikTok Button
       <a
          href="https://www.tiktok.com/@cl_barbersclub001"
         target="_blank"
@@ -23,12 +24,21 @@ const Social = () => {
         className="social-button tiktok"
       >
         <FaTiktok />
+      </a> */}
+
+      <a
+        href="#"
+        onClick={() => window.open("tel:+994556550644", "_blank")}
+        rel="noopener noreferrer"
+        className="social-button call"
+      >
+        <FaPhone />
       </a>
 
       <a
-         href="https://wa.me/994556550644?text=Salam"
-         target="_blank"
-         rel="noopener noreferrer"
+        href="https://wa.me/994556550644?text=Salam"
+        target="_blank"
+        rel="noopener noreferrer"
         className="social-button whatsapp"
       >
         <FaWhatsapp />

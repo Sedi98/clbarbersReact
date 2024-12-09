@@ -6,10 +6,11 @@ import {
   FaMapMarkerAlt,
   FaLink,
   FaWhatsapp,
+  FaPhone,
 } from "react-icons/fa";
 import "./style.css"; // Custom styles
 import logo from "../../assets/img/cl_logo.png";
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 function SocialPage() {
   const navigate = useNavigate();
@@ -25,6 +26,8 @@ function SocialPage() {
             height={100}
           />
           <h2 className="card-title">Cl Barbers Club 001</h2>
+          
+          <p className="card-subtitle">"Saçlarımız ən gözəl aksesuarımızdır"</p>
         </div>
         <div className="card-body">
           <div className="card-info">
@@ -48,14 +51,14 @@ function SocialPage() {
             >
               <FaInstagram />
             </a>
-            <a
+            {/* <a
               href="https://www.tiktok.com/@cl_barbersclub001"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon tiktok"
             >
               <FaTiktok />
-            </a>
+            </a> */}
             <a
               href="https://wa.me/994556550644?text=Salam"
               target="_blank"
@@ -63,6 +66,23 @@ function SocialPage() {
               className="social-icon whatsapp"
             >
               <FaWhatsapp />
+            </a>
+            <a
+              onClick={() => window.open("tel:+994 55 655 06 44")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon call"
+            >
+              <FaPhone />
+            </a>
+
+            <a
+              onClick={() => navigate("/")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon site"
+            >
+              <FaLink />
             </a>
           </div>
         </div>

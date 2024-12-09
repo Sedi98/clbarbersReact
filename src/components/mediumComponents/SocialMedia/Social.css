@@ -47,4 +47,9 @@
   .social-button.whatsapp{
     background-color: #25D366;
   }
+
+
+  .social-button.call {
+    background-color: #34b7f1; /* A fresh and pleasant shade of blue-green */
+}
   
